@@ -18,10 +18,8 @@ class EmojiMemoryGame {
             ThemePool<String>
                 .Theme(
                     name: "字母",
-                    color: "purple",
-                    // 你可以換成喜歡的顏色，例如 purple
+                    color: "cyan",
                     numberOfPairs: 8,
-                    // 決定這個主題要玩幾對
                     items: [
                         "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K",
                         "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V",
@@ -94,7 +92,7 @@ class EmojiMemoryGame {
     // 將字串顏色轉換為 SwiftUI 的 Color
     var themeColor: Color {
         switch currentTheme.color {
-        case "orange": return .orange
+        case "cyan": return .cyan
         case "blue": return .blue
         case "green": return .green
         default: return .gray
